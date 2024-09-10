@@ -2,6 +2,7 @@ package code;
 
 public class Program {
 	public static void main(String[] args) {
-		System.out.println("Hello Universe");
+		String msg = MessageGenerator.getMessage();
+		System.out.println(msg);
 	}
 }
